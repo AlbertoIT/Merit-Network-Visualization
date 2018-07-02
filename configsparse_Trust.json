@@ -1,0 +1,59 @@
+{
+    "type": "network",
+    "data": "data/graphFull_Sparse_Trust.gexf",
+    "version": "1.0",
+    "logo": {
+        "file": "images/ColorTrust1.png",
+        "text": "Trust colors"
+    },
+    "text": {
+        "title": "Merit Network Visualization",
+        "intro": "A way to visualize merit connections between users, while trying to identify new merit sources by highlighting people which awarded more merits."
+    },
+    "legend": {
+	"rankColor": "Ranks",
+        "nodeLabel": "The size of the node is directly proportional to the merit given away.",
+	"nodeColor": "Color of the nodes represent a simple indication of the trust level.",
+        "edgeLabel": "A merit transaction between users"
+    },
+    "features": {
+        "search": true,
+        "hoverBehavior": "default",
+        "groupSelectorAttribute": "color"
+    },
+    "search":{
+    	"fulltext":true
+    },
+    "informationPanel": {
+        "groupByEdgeDirection": false,
+        "imageAttribute": "Image File"
+    },
+    "sigma": {
+    	"drawingProperties":{    
+			"defaultLabelColor": "#000",
+			"defaultLabelSize": 14,
+			"defaultLabelBGColor": "#ddd",
+			"defaultHoverLabelBGColor": "#002147",
+			"defaultLabelHoverColor": "#fff",
+			"labelThreshold": 8,
+			"defaultEdgeType": "curve",
+			"defaultEdgeArrow": "target",
+			"hoverFontStyle": "bold",
+			"fontStyle": "bold",
+			"activeFontStyle": "bold"
+		},
+		"graphProperties":{
+			"minNodeSize": 1,
+			"maxNodeSize": 7,
+			"minEdgeSize": 0.2,
+			"maxEdgeSize": 0.5,
+			"minArrowSize": 25,
+			"scalingMode": "outside"
+		},		
+		"mouseProperties":{
+			"minRatio": 0.75, 
+			"maxRatio": 100
+		}
+    }
+    
+}
