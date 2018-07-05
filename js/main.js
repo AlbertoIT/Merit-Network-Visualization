@@ -90,6 +90,7 @@ function initSigma(config) {
 
 
     dataReady = function() {//This is called as soon as data is loaded
+	    	document.getElementById('outPopUp').style.display = "none";
 		a.clusters = {};
 
 		a.iterNodes(
